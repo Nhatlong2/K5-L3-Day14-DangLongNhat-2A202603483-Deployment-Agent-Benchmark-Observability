@@ -1,0 +1,27 @@
+{
+  "target": "http://127.0.0.1:18002",
+  "concurrency": 20,
+  "total_requests": 300,
+  "duration_s": 6.15,
+  "rps": 48.81,
+  "error_rate": 0.0033,
+  "status_codes": {
+    "200": 299,
+    "503": 1
+  },
+  "latency_ms": {
+    "min": 162.1,
+    "avg": 327.5,
+    "p50": 199.9,
+    "p90": 294.8,
+    "p95": 1691.1,
+    "p99": 1777.0,
+    "max": 1811.2
+  },
+  "total_cost_usd": 0.010391,
+  "slo": {
+    "p95_ms": 500,
+    "error_rate": 0.02,
+    "passed": false
+  }
+}
