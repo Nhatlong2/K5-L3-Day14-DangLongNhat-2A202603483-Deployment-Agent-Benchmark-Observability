@@ -90,8 +90,8 @@ Client (HTTP :80 / HTTPS :443)
 ## Part 3: Cloud Deployment
 
 ### Exercise 3.1 / 3.2: Deploy Agent Part 6 lên Cloud
-- **Nền tảng chọn:** `[Railway hoặc Render]`
-- **Public URL:** `[DÁN URL PUBLIC CỦA BẠN — xem chi tiết trong DEPLOYMENT.md]`
+- **Nền tảng chọn:** `Render (Docker Web Service + Render Key Value Redis)`
+- **Public URL:** `https://k5-l3-day14-danglongnhat-2a202603483.onrender.com`
 - **Screenshots:** `screenshots/dashboard.png`, `screenshots/running.png`, `screenshots/test.png`
 
 ### So sánh `railway.toml` vs `render.yaml`
